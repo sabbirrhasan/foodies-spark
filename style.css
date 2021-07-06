@@ -5,12 +5,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-/* h1{
-    color: #575757;
-}
-p{
-    color: #828282;
-} */
 .orange-text{
     color: orange;
 }
@@ -29,15 +23,11 @@ p{
     display: flex;
     margin-bottom: 30px;
 }
-.banner-section{
-    
-}
 .banner-text{
     margin-top: 190px;
     margin-left: 80px;
     color: #575757;
     color: #828282;
-
 }
 .banner-text h1{
     font-size: 50px;
@@ -62,10 +52,6 @@ p{
 .banner-image img{
     width: 90%;
 }
-/* Newly added */
-/* .width-21{
-    width: 21%;
-} */
 .categories-section{
     text-align: center;
     font-size: 30px;
@@ -204,4 +190,123 @@ p{
 .readmore-button:hover{
     color: orangered;
     transition: all .4s ease;
+}
+.latest-blog{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #575757;
+    margin-bottom: 30px;
+}
+
+.styled-text{
+    font-style: italic;
+}
+.styled-text a:hover{
+    color: orange;
+    transition: all .4s ease;
+}
+.styled-text a{
+    text-decoration: none;
+    color: orangered;
+}
+.blog-container{
+    display: flex;
+    margin-bottom: 30px;
+}
+.blog-container a{
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+}
+#blog-card-one img{
+    width: 82%;
+    height: 270px;
+    margin-left: 26%;
+}
+#blog-card-one a{
+    display: inline-block;
+    text-align: center;
+    width: 82%;
+    margin-left: 26%;
+}
+#blog-card-two img{
+    width: 67%;
+    height: 270px;
+    margin-left: 20%;
+}
+#blog-card-two a{
+    display: inline-block;
+    text-align: center;
+    width: 67%;
+    margin-left: 20%;
+    
+}
+#blog-card-three img{
+    width: 77%;
+    height: 270px;
+    margin-left: 1%;
+}
+#blog-card-three a{
+    display: inline-block;
+    text-align: center;
+    width: 77%;
+    margin-left: 1%;
+}
+#blog-card-four img{
+    width: 83%;
+    height: 270px;
+    margin-left: -7%;
+}
+#blog-card-four a{
+    display: inline-block;
+    text-align: center;
+    width: 83%;
+    margin-left: -7%;
+}
+/* Another Blog Section CSS */
+#blog-card-five img{
+    width: 82%;
+    height: 270px;
+    margin-left: 26%;
+}
+#blog-card-five a{
+    display: inline-block;
+    text-align: center;
+    width: 82%;
+    margin-left: 26%;
+}
+#blog-card-six img{
+    width: 67%;
+    height: 270px;
+    margin-left: 20%;
+}
+#blog-card-six a{
+    display: inline-block;
+    text-align: center;
+    width: 67%;
+    margin-left: 20%;
+    
+}
+#blog-card-seven img{
+    width: 77%;
+    height: 270px;
+    margin-left: 1%;
+}
+#blog-card-seven a{
+    display: inline-block;
+    text-align: center;
+    width: 77%;
+    margin-left: 1%;
+}
+#blog-card-eight img{
+    width: 83%;
+    height: 270px;
+    margin-left: -7%;
+}
+#blog-card-eight a{
+    display: inline-block;
+    text-align: center;
+    width: 83%;
+    margin-left: -7%;
 }
