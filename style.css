@@ -5,12 +5,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-h1{
+/* h1{
     color: #575757;
 }
 p{
     color: #828282;
-}
+} */
 .orange-text{
     color: orange;
 }
@@ -35,9 +35,12 @@ p{
 .banner-text{
     margin-top: 190px;
     margin-left: 80px;
+    color: #575757;
+    color: #828282;
+
 }
 .banner-text h1{
-    font-size: 53px;
+    font-size: 50px;
     font-weight: 700;
 }
 .banner-text p{
@@ -54,8 +57,151 @@ p{
     border-radius: 35px;
 }
 .banner-image{
-    padding-left: 120px;
+    padding-left: 150px;
 }
 .banner-image img{
     width: 90%;
+}
+/* Newly added */
+/* .width-21{
+    width: 21%;
+} */
+.categories-section{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #575757;
+    margin-bottom: 30px;
+}
+.image-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+}
+.image-container a{
+    text-decoration: none;
+    color: white;
+}
+.image-container a:hover{
+    color: orangered;
+    transition: all .4s ease;
+}
+#cakes-item{
+    background: url(images/categories/cakes.jpg) no-repeat center;
+    background-size: cover;
+    margin-right: 1%;
+    padding: 95px;
+    text-align: center;
+    font-size: 25px;
+}
+#cookies-item{
+    background: url(images/categories/cookies.jpg) no-repeat center;
+    background-size: cover;
+    margin-right: 1%;
+    padding: 85px;
+    text-align: center;
+    font-size: 25px;  
+}
+#chicken-item{
+    background: url(images/categories/chicken.jpg) no-repeat center;
+    background-size: cover;
+    margin-right: 1%;
+    padding: 85px;
+    text-align: center;
+    font-size: 25px;
+}
+#vegetable-item{
+    background: url(images/categories/vegetable.jpg) no-repeat center;
+    background-size: cover;
+    padding: 85px;
+    text-align: center;
+    font-size: 25px;
+}
+.browse-button{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.browse-button a{
+    
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #575757;
+    font-weight: 600;
+    border: 2px solid orangered;
+    border-radius: 35px; 
+}
+.browse-button a:hover{
+    background-color: orangered;
+    color: white;
+    transition: all .4s ease;
+}
+.top-selling-recipes{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #575757;
+    margin-bottom: 30px;
+}
+.recipe-container{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.recipe-container h3{
+    color: #575757;
+    margin-top: 10px;
+    width: 65%;
+    
+}
+.recipe-container p{
+    color: #828282;
+    margin-top: 7px;
+    font-size: 15px;
+    width: 330px;
+}
+.width-28{
+    width: 33%;
+}
+#cookies-card{
+    margin-right: 4%;
+    border: gray;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px 0 25px 18px ;
+    width: 350px;
+    border-radius: 25px;
+}
+#steak-card{
+    margin-right: 4%;
+    border: gray;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px 0 25px 18px ;
+    width: 350px;
+    border-radius: 25px;
+}
+#soup-card{
+    border: gray;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px 0 25px 18px ;
+    width: 350px;
+    border-radius: 25px;
+}
+.recipe-card img{
+    width: 330px;
+    display: inline-block;
+}
+.readmore-button{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #575757;
+    font-weight: 900;
+    font-size: 15px;
+}
+.readmore-button:hover{
+    color: orangered;
+    transition: all .4s ease;
 }
