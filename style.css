@@ -1,3 +1,4 @@
+/* Universal Style Start */
 *{
     margin: 0;
     padding: 0;
@@ -19,10 +20,57 @@ body{
     color: orange;
     transition: all .4s ease;
 }
+.styled-text{
+    font-style: italic;
+}
+.styled-text a{
+    text-decoration: none;
+    color: orangered;
+}
+.styled-text a:hover{
+    color: orange;
+    transition: all .4s ease;
+}
+.browse-button{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.browse-button a{
+    
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #575757;
+    font-weight: 600;
+    border: 2px solid orangered;
+    border-radius: 35px; 
+}
+.browse-button a:hover{
+    background-color: orangered;
+    color: white;
+    transition: all .4s ease;
+}
+.readmore-button{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #575757;
+    font-weight: 900;
+    font-size: 15px;
+}
+.readmore-button:hover{
+    color: orangered;
+    transition: all .4s ease;
+}
 .flex-container{
     display: flex;
     margin-bottom: 30px;
 }
+/* Universal Style End */
+
+/* Banner Container Style Start */
 .banner-text{
     margin-top: 190px;
     margin-left: 80px;
@@ -39,7 +87,7 @@ body{
 .button{
     text-decoration: none;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 13px 25px;
     background-image: linear-gradient(orange, orangered);
     color: white;
@@ -52,6 +100,9 @@ body{
 .banner-image img{
     width: 90%;
 }
+/* Banner Container Style End */
+
+/* Categories/Image Container Section Style Start */
 .categories-section{
     text-align: center;
     font-size: 30px;
@@ -104,27 +155,9 @@ body{
     text-align: center;
     font-size: 25px;
 }
-.browse-button{
-    margin-bottom: 60px;
-    text-align: center;
-}
-.browse-button a{
-    
-    text-decoration: none;
-    background-color: transparent;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    color: #575757;
-    font-weight: 600;
-    border: 2px solid orangered;
-    border-radius: 35px; 
-}
-.browse-button a:hover{
-    background-color: orangered;
-    color: white;
-    transition: all .4s ease;
-}
+/* Categories/Image Container Section Style End */
+
+/* Top Selling Recipes/ Recipe Container Section Style Start */
 .top-selling-recipes{
     text-align: center;
     font-size: 30px;
@@ -149,7 +182,11 @@ body{
     font-size: 15px;
     width: 330px;
 }
-.width-28{
+.recipe-card img{
+    width: 330px;
+    display: inline-block;
+}
+.width-33{
     width: 33%;
 }
 #cookies-card{
@@ -175,40 +212,15 @@ body{
     width: 350px;
     border-radius: 25px;
 }
-.recipe-card img{
-    width: 330px;
-    display: inline-block;
-}
-.readmore-button{
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    color: #575757;
-    font-weight: 900;
-    font-size: 15px;
-}
-.readmore-button:hover{
-    color: orangered;
-    transition: all .4s ease;
-}
+/* Top Selling Recipes/ Recipe Container Section Style End */
+
+/* Latest Blog/Blog Container Style Start */
 .latest-blog{
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     color: #575757;
     margin-bottom: 30px;
-}
-
-.styled-text{
-    font-style: italic;
-}
-.styled-text a:hover{
-    color: orange;
-    transition: all .4s ease;
-}
-.styled-text a{
-    text-decoration: none;
-    color: orangered;
 }
 .blog-container{
     display: flex;
@@ -264,7 +276,7 @@ body{
     width: 83%;
     margin-left: -7%;
 }
-/* Another Blog Section CSS */
+/* Another Blog Section */
 #blog-card-five img{
     width: 82%;
     height: 270px;
@@ -310,3 +322,86 @@ body{
     width: 83%;
     margin-left: -7%;
 }
+/* Latest Blog/Blog Container Style End */
+
+/* About Container Style Start */
+.half-width{
+    width: 50%;
+}
+.about-containter{
+    background: url(images/about-banner.png);
+}
+.about-image{
+    padding-left: 170px;
+    margin-top: 60px;
+}
+.about-image img{
+    width: 60%;
+}
+.about-text{
+    padding-right: 40px;
+    margin-top: 190px;
+    margin-right: 40px;
+    color: #575757;
+    color: #828282;
+}
+.about-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -55px;
+    margin-bottom: 30px;
+}
+.about-text p{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+/* About Container Style End */
+
+/* Social Container Style Start*/
+.social-container{
+    width: 90%;
+    margin: 60px 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    height: 120px;
+    padding-top: 60px;
+    padding-left: auto;
+    padding-right: auto;   
+}
+.social-media{
+    width: 30%;
+}
+.social-media h1{
+    font-size: 40px;
+}
+#youtube{
+    padding-left: 20%;
+}
+#instagram{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#dribble{
+    padding-right: 20%;
+}
+/* Social Container Style End*/
+
+/* Footer Container Style Start */
+footer{
+    text-align: center;
+    padding: 55px;
+    background-color: black;
+}
+footer span{
+    color: rgba(199, 63, 14, 0.884);
+}
+footer h3{
+    font-size: 25px;
+    color: #5B5B5B;
+}
+footer p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/* Footer Container Style End */
